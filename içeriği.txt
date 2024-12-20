@@ -1,0 +1,81 @@
+İngilizcesi	Açıklaması
+-----------     -------------
+Cholesterol	Hastanın kolesterol seviyesi.
+Glucose	        Hastanın glukoz seviyesi.
+HDL Chol	Yüksek yoğunluklu lipoprotein (iyi kolesterol) seviyesi.
+Chol/HDL ratio	Kolesterol ile HDL kolesterol arasındaki oran.
+Age	        Hastanın yaşı.
+Gender	        Hastanın cinsiyeti (kadın/erkek).
+Height	        Hastanın boyu (cm).
+Weight	        Hastanın kilosu (kg).
+BMI	        Beden kitle indeksi (kilo / boy²).
+Systolic BP	Hastanın sistolik (büyük tansiyon) kan basıncı.
+Diastolic BP	Hastanın diyastolik (küçük tansiyon) kan basıncı.
+waist	        Hastanın bel ölçüsü (cm).
+hip	        Hastanın kalça ölçüsü (cm).
+Waist/hip ratio	Bel/kalça oranı.
+Diabetes	Hedef değişken: Hastanın diyabet durumu ("Diabetes" veya "No Diabetes" olarak belirtilir).
+***********************************************************************************************************
+
+Örnek Girdiler
+
+1-Diyabetli Hasta Örneği
+Cholesterol: 230
+Glucose: 150
+BMI: 28.5
+Waist/Hip Ratio: 0.92
+HDL Chol: 35
+Chol/HDL Ratio: 6.6
+Systolic BP: 140
+Diastolic BP: 90
+Weight: 80
+Bu hasta, yüksek glukoz ve kolesterol seviyelerine sahip. Ayrıca BMI ve bel/kalça oranı da riskli aralıklarda.
+
+2-Diyabetli Olmayan Hasta Örneği
+Cholesterol: 180
+Glucose: 95
+BMI: 22.5
+Waist/Hip Ratio: 0.80
+HDL Chol: 55
+Chol/HDL Ratio: 3.3
+Systolic BP: 120
+Diastolic BP: 80
+Weight: 65
+Bu kişi, sağlıklı değer aralıklarına sahiptir ve diyabet riski düşüktür
+
+3-üksek Riskli Ama Diyabet Olmayan Hasta
+Cholesterol: 220
+Glucose: 110
+BMI: 27.0
+Waist/Hip Ratio: 0.88
+HDL Chol: 50
+Chol/HDL Ratio: 4.4
+Systolic BP: 135
+Diastolic BP: 85
+Weight: 75
+Bu hasta, sınırda değerlere sahip ancak diyabet olmama ihtimali yüksektir. Takip gereklidir.
+
+4-Diyabetli Hasta Örneği (Ağır Durum)
+Cholesterol: 250
+Glucose: 190
+BMI: 32.0
+Waist/Hip Ratio: 0.95
+HDL Chol: 30
+Chol/HDL Ratio: 8.3
+Systolic BP: 160
+Diastolic BP: 100
+Weight: 95
+Bu hasta, belirgin şekilde diyabet hastasıdır ve birçok değer çok yüksek riskli kategoridedir.
+
+5-Sağlıklı Genç Hasta
+Cholesterol: 170
+Glucose: 85
+BMI: 21.0
+Waist/Hip Ratio: 0.78
+HDL Chol: 60
+Chol/HDL Ratio: 2.8
+Systolic BP: 115
+Diastolic BP: 75
+Weight: 60
+
+Bu kişi, tamamen sağlıklı ve genç bir birey olarak sınıflandırılabilir.
